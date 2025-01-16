@@ -1,5 +1,4 @@
-<script>
-	function generateQRCode() {
+function generateQRCode() {
     const value = document.getElementById('qr-code-value').value.trim();
 
     if (!value) {
@@ -32,4 +31,3 @@ function refreshPage() {
     const refreshButton = document.getElementById('refresh-button');
     refreshButton.classList.add('hidden');
 }
-</script>
